@@ -2,6 +2,7 @@
 Documentation       This is to check successful login
 
 Resource            ../../../keywords/ui/login.robot
+
 Test Setup          Common Suite Setup
 Test Teardown       Common Suite Teardown
 

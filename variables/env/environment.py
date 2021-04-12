@@ -1,2 +1,2 @@
-ENV='prod'
-BROWSER='chrome'
+ENV = 'prod'
+BROWSER = 'chrome'

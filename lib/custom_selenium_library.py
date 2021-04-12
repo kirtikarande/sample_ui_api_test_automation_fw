@@ -8,9 +8,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-
-# from logilab.common.proc import TimeoutError
-
 # create new class that inherits from Selenium2Library
 class custom_selenium_library(Selenium2Library):
     # create a new keyword called "get webdriver instance"
@@ -20,5 +17,3 @@ class custom_selenium_library(Selenium2Library):
         title = driver.title
         print(title)
         return title
-
-    #def get
